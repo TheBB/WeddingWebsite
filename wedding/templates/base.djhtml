@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>Kun &#x2665; Eivind</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body>
     <h1>Hello there!</h1>
