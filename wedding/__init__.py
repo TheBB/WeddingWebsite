@@ -11,7 +11,8 @@ def create_app(test_config=None):
     app.config.from_mapping(SECRET_KEY='dev')
 
     if test_config is None:
-        app.config.from_envvar('WEDDING_CONFIG')
+        if 'WEDDING_CONFIG' in os.environ:
+            app.config.from_envvar('WEDDING_CONFIG')
     else:
         app.config.from_mapping(test_config)
 
