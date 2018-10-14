@@ -16,11 +16,13 @@ def create_app(test_config=None):
     else:
         app.config.from_mapping(test_config)
 
+    app.config.setdefault('SUBDOMAIN', None)
+
     try:
         os.makedirs(app.instance_path)
     except OSError:
         pass
 
-    app.route('/')(index)
+    app.route('/', subdomain=app.config['SUBDOMAIN'])(index)
 
     return app
