@@ -1,1 +1,56 @@
-html { font-family: sans-serif; background: #eee; padding: 1rem; }
+@font-face {
+    font-family: 'TypeLand XhangXi Dict Demo';
+    src: url('/static/TpldKhangXiDictDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #d0072f;
+
+    background-image: url(/static/index-bg.jpg);
+    background-position: center -750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    align: center;
+}
+
+.title {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+}
+
+.zh {
+    font-family: 'TypeLand XhangXi Dict Demo';
+}
+
+.contents {
+    margin: auto;
+    margin-top: 5%;
+    border-collapse: collapse;
+    font-size: 1.8em;
+}
+
+.contents > tbody > tr > td {
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    padding-bottom: 0.3em;
+}
+
+.contents > tbody > tr > td.en {
+    border-style: none solid none none;
+    border-width: 1px;
+    text-align: right;
+}
+
+.contents > tbody > tr > td.no {
+    border-style: none none none solid;
+    border-width: 1px;
+    text-align: left;
+}
