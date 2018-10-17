@@ -1,0 +1,89 @@
+html {
+    color: #990523;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 1.0em;
+}
+
+.topbox > .info {
+    text-align: right;
+}
+
+.contents {
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 10vw;
+}
+
+.contents > tbody > tr > td {
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    padding-bottom: 0.8em;
+}
+
+.contents > tbody > tr > td.en {
+    border-style: none solid none none;
+    border-width: 1px;
+    text-align: right;
+}
+
+.contents > tbody > tr > td.no {
+    border-style: none none none solid;
+    border-width: 1px;
+    text-align: left;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+}
+
+.footer > img {
+    height: 20vw;
+    padding-left: 9vw;
+}
+
+@media (max-width: 30em) {
+    html {
+        background-image: url(/static/index-bg.jpg);
+    }
+    .topbox {
+        width: 60%;
+        margin: 20% auto 0 auto;
+    }
+    .topbox > .title {
+        padding-left: 7vw;
+    }
+    .topbox > .info {
+        margin-top: -2vw;
+        font-size: 3vw;
+    }
+    .contents {
+        font-size: 3.2vw;
+    }
+    .footer {
+        margin-top: 24vw;
+    }
+}
+
+@media (min-width: 30em) {
+    html {
+        background-image: url(/static/index-bg-cut.jpg);
+    }
+    .topbox {
+        width: 50%;
+        margin: 17% auto 0 auto;
+    }
+    .topbox > .info {
+        font-size: 1.7vw;
+    }
+    .contents {
+        font-size: 2.7vw;
+    }
+    .footer {
+        margin-top: 15vw;
+    }
+}

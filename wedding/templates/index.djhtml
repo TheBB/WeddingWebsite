@@ -1,1 +1,60 @@
-{% extends "base.djhtml" %}
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        Our Wedding<br><span class="zh">婚禮邀請</span>
+      </div>
+      <div class="info">
+        <p>29 June 2019 <br> <span class="zh">二零一九年 六月 二十九日</span></p>
+        <p>Trondheim, Norway <br> <span class="zh">特隆赫姆 &ndash; 挪威</span></p>
+      </div>
+    </div>
+    <table class="contents">
+      <tbody>
+        <tr>
+          <td class="en"><a href="/about">About us</a></td>
+          <td class="zh"><a href="/about">關於我們</a></td>
+          <td class="no"><a href="/about">Om oss</a></td>
+        </tr>
+        <tr>
+          <td class="en">Date and place</td>
+          <td class="zh">婚期地點</td>
+          <td class="no">Tid og sted</td>
+        </tr>
+        <tr>
+          <td class="en">Schedule</td>
+          <td class="zh">日程安排</td>
+          <td class="no">Program</td>
+        </tr>
+        <tr>
+          <td class="en">Information</td>
+          <td class="zh">旅宿信息</td>
+          <td class="no">Informasjon</td>
+        </tr>
+        <tr>
+          <td class="en">RSVP</td>
+          <td class="zh">敬請回覆</td>
+          <td class="no">Svar utbes</td>
+        </tr>
+        <tr>
+          <td class="en">Updates</td>
+          <td class="zh">最新消息</td>
+          <td class="no">Oppdateringer</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">
+      <img src="/static/couple.png">
+    </div>
+  </body>
+</html>

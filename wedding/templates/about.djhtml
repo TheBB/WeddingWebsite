@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">About Us &middot; Om Oss<br><span class="zh">關於我們</span></a>
+      </div>
+    </div>
+    <div class="midbox">
+      <table>
+        <tbody>
+          <tr>
+            <td class="left">
+              Eivind (<span class="zh">艾文</span>) [eivin] <br>
+              Born on Nov 2, 1984 <br>
+              <span class="zh">生於一九八四年十一月二日</span> <br>
+              In Trondheim, Norway <br>
+              <span class="zh">于特隆赫姆，挪威</span>
+            </td>
+            <td class="right">
+              Kun (<span class="zh">坤</span>) <br>
+              Born on Aug 15, 1988 <br>
+              <span class="zh">生於一九八八年八月十五日</span> <br>
+              In Lüliang, Shanxi, China <br>
+              <span class="zh">于呂梁，山西，中國</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contents">
+      <p>
+        Eivind and Kun met each other on a beautiful summer night in 2011 in Zürich. Eivind was
+        working and studying at ETH Zürich while Kun was doing her internship at Givaudan. An
+        international student event brought them together. They had a long distance relationship for
+        five and a half years, but travelled every month to meet each other. Since 2017 they live
+        together in the Netherlands.
+      </p>
+      <p>
+        Eivind og Kun møtte hverandre på en vakker sommernatt i 2011 i Zürich. Eivind jobbet og
+        studerte på ETH Zürich, mens Kun jobbet som praktikant på Givaudan. De fant hverandre på et
+        internasjonalt studentevenement. De hadde et langdistanseforhold i fem og et halvt år, men
+        reiste hver måned for å treffe hverandre. Siden 2017 bor de sammen i Nederland.
+      </p>
+      <p class="zh">
+        時生自一這，主時要重花部傳點處一！在放一進人收。灣真但春晚停女我管他來影燈中為標校因日體；可
+        現不時因童天花認，算容上告像量文：別一時取客與為四居。化樂意雖，慢再決到，細男時生傳果東照一要，學口可北此開
+        世是自五又勢如物重後可禮。難結開寫現相明古不國我故一院不不重走那去都法同住臺中，家自興半先這山父舉市
+        事……作生真也以國式到，證他年的學出活總二。孩配一夫存在二代書結連本任，臺方的廣活往物友中。府助眾場。
+      </p>
+    </div>
+  </body>
+</html>

@@ -2,6 +2,10 @@ from flask import render_template, Flask
 import os
 
 
+def about():
+    return render_template('about.djhtml')
+
+
 def index():
     return render_template('index.djhtml')
 
@@ -22,5 +26,6 @@ def create_app(test_config=None):
         pass
 
     app.route('/')(index)
+    app.route('/about')(about)
 
     return app

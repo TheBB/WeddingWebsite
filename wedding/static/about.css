@@ -1,0 +1,84 @@
+html {
+    background-image: url(/static/about-bg.jpg);
+    color: #374b85;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    margin-top: 5vw;
+    width: 60vw;
+}
+
+.contents > p {
+    padding-top: 2vw;
+}
+
+.midbox {
+    background-image: url(/static/carp.png);
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 5vw;
+    width: 40vw;
+    font-size: 1.2vw;
+}
+
+.midbox > table {
+    width: 100%;
+    margin: auto;
+    height: 20vw;
+}
+
+.midbox > table > tbody > tr > .left {
+    text-align: left;
+    vertical-align: top;
+}
+
+.midbox > table > tbody > tr > .right {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+@media (max-width: 30em) {
+    .topbox {
+        width: 60%;
+        margin: 20% auto 0 auto;
+    }
+    .topbox > .title {
+        padding-left: 7vw;
+    }
+    .topbox > .info {
+        margin-top: -2vw;
+        font-size: 3vw;
+    }
+    .contents {
+        font-size: 3.2vw;
+    }
+    .footer {
+        margin-top: 24vw;
+    }
+}
+
+@media (min-width: 30em) {
+    .topbox {
+        width: 70%;
+        margin: 17% auto 0 auto;
+    }
+    .topbox > .info {
+        font-size: 1.7vw;
+    }
+    .contents {
+        font-size: 2vw;
+    }
+    .footer {
+        margin-top: 15vw;
+    }
+}
