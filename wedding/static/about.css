@@ -3,6 +3,11 @@ html {
     color: #374b85;
 }
 
+.topbox {
+    width: 70%;
+    margin: 17% auto 0 auto;
+}
+
 .topbox > .title {
     font-weight: bold;
     font-size: 4vw;
@@ -17,17 +22,20 @@ html {
 }
 
 .contents > p {
-    padding-top: 2vw;
+    padding-top: 1vw;
 }
 
-.midbox {
+.carps {
     background-image: url(/static/carp.png);
     background-size: 20vw;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.midbox {
     margin: auto;
     margin-top: 5vw;
-    width: 40vw;
+    width: 60vw;
     font-size: 1.2vw;
 }
 
@@ -37,48 +45,53 @@ html {
     height: 20vw;
 }
 
-.midbox > table > tbody > tr > .left {
+.midbox td {
+    width: 50%;
+}
+
+.cols:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+.left img {
+    float: left;
+    width: 10vw;
+    margin-right: 1vw;
+}
+
+.right img {
+    float: right;
+    width: 10vw;
+    margin-left: 1vw;
+}
+
+.midbox h4 {
+    margin-bottom: 0.1vw;
+}
+
+.left {
     text-align: left;
     vertical-align: top;
 }
 
-.midbox > table > tbody > tr > .right {
+.right {
     text-align: right;
     vertical-align: bottom;
 }
 
-@media (max-width: 30em) {
-    .topbox {
-        width: 60%;
-        margin: 20% auto 0 auto;
-    }
-    .topbox > .title {
-        padding-left: 7vw;
-    }
-    .topbox > .info {
-        margin-top: -2vw;
-        font-size: 3vw;
-    }
-    .contents {
-        font-size: 3.2vw;
-    }
-    .footer {
-        margin-top: 24vw;
-    }
+.contents {
+    font-size: 1.7vw;
+    margin-top: 0vw;
 }
 
-@media (min-width: 30em) {
-    .topbox {
-        width: 70%;
-        margin: 17% auto 0 auto;
-    }
-    .topbox > .info {
-        font-size: 1.7vw;
-    }
-    .contents {
-        font-size: 2vw;
-    }
-    .footer {
-        margin-top: 15vw;
-    }
+.footer {
+    margin-top: 15vw;
 }

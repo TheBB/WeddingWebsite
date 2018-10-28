@@ -15,11 +15,13 @@
         <a href="/">About Us &middot; Om Oss<br><span class="zh">關於我們</span></a>
       </div>
     </div>
-    <div class="midbox">
+    <div class="midbox carps">
       <table>
         <tbody>
           <tr>
             <td class="left">
+              <h4>The Groom &middot; <span class="zh">新郎</span> &middot; Brudgommen</h4>
+              <img src="{{ url_for('static', filename='ef.jpg') }}" />
               Eivind (<span class="zh">艾文</span>) [eivin] <br>
               Born on Nov 2, 1984 <br>
               <span class="zh">生於一九八四年十一月二日</span> <br>
@@ -27,6 +29,8 @@
               <span class="zh">于特隆赫姆，挪威</span>
             </td>
             <td class="right">
+              <h4>The Bride &middot; <span class="zh">新娘</span> &middot; Bruden</h4>
+              <img src="{{ url_for('static', filename='kl.jpg') }}" />
               Kun (<span class="zh">坤</span>) <br>
               Born on Aug 15, 1988 <br>
               <span class="zh">生於一九八八年八月十五日</span> <br>
@@ -58,5 +62,42 @@
         事……作生真也以國式到，證他年的學出活總二。孩配一夫存在二代書結連本任，臺方的廣活往物友中。府助眾場。
       </p>
     </div>
+    <div class="midbox cols left">
+      <h4>The best man &middot; <span class="zh">伴郎</span> &middot; Forlover</h4>
+      <div style="float: left; width: 45%;">
+        <img src="{{ url_for('static', filename='ja.jpg') }}" />
+        Jørgen met Eivind at the university in Trondheim, Norway, where they studied together for
+        the entire Master's program. During this time they tried every board game ever created. When
+        Jørgen married in 2011, Eivind was the best man, and now the roles are reversed.
+      </div>
+      <div style="float: left; width: 50%; padding-left: 1vw;">
+        Jørgen<span class="zh">是艾文在挪威特隆赫姆大學碩士期間的同學兼好友。在此期間，他們幾乎玩
+        遍了所有的桌遊。</span>Eivind<span class="zh">是</span>Jørgen<span class="zh">在
+        </span>2011<span class="zh">年結婚時的伴郎，如今他們的角色正好互換了。</span> <br> <br>
+
+        Jørgen møtte Eivind ved universitetet i Trondheim der de studerte sammen hele
+        masterstudiet. I løpet av denne tiden prøvde de alle brettspill noensinne.  Da Jørgen giftet
+        seg i 2011, var Eivind hans forlover, og nå er det motsatt.
+      </div>
+    </div>
+    <dir class="midbox cols right">
+      <h4>The maid of honor &middot; <span class="zh">伴娘</span> &middot; Forlover</h4>
+      <div style="float: right; width: 45%;">
+        <img src="{{ url_for('static', filename='ny.jpg') }}" />
+        Na is an adventurous and enthusiastic flavorist. Not long after Na and Kun first met in
+        school, they became food buddies and shopping companions. Whenever they have a smidgen of
+        time to indulge themselves, they love to explore good foods and drinks, and discover
+        exciting life moments.
+      </div>
+      <div style="float: right; width: 50%; padding-right: 1vw;">
+        <span class="zh">娜是一位傾心探索嘗試、對生活滿懷熱情的調香師。娜和坤在學校結識後不久，就成
+        了一起把酒言歡、逛街串巷的朋友。她倆總是利用閒暇時間去品嚐美食佳餚，一起發掘生活中有趣的細節。
+        </span> <br> <br>
+
+        Na er en eventyrlysten og entusiastisk smaksekspert. Ikke lenge etter at Na og Kun først
+        møttes på skolen, ble de mat- og shoppingkamerater. Når de har tid til å slå seg løs elsker
+        de å utforske gode matvarer og drikker, og å oppdage spennende livsmomenter.
+      </div>
+    </dir>
   </body>
 </html>
