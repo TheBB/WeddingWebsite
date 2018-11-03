@@ -5,9 +5,11 @@ import os
 def about():
     return render_template('about.djhtml')
 
-
 def index():
     return render_template('index.djhtml')
+
+def place():
+    return render_template('place.djhtml')
 
 
 def create_app(test_config=None):
@@ -27,5 +29,6 @@ def create_app(test_config=None):
 
     app.route('/')(index)
     app.route('/about')(about)
+    app.route('/place')(place)
 
     return app

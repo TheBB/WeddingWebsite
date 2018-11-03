@@ -27,9 +27,9 @@
           <td class="no"><a href="/about">Om oss</a></td>
         </tr>
         <tr>
-          <td class="en">Date and place</td>
-          <td class="zh">婚期地點</td>
-          <td class="no">Tid og sted</td>
+          <td class="en"><a href="/place">Date and place</a></td>
+          <td class="zh"><a href="/place">婚期地點</a></td>
+          <td class="no"><a href="/place">Tid og sted</a></td>
         </tr>
         <tr>
           <td class="en">Schedule</td>

@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='place.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">Date and place &middot; Tid og sted<br><span class="zh">婚期地點</span></a>
+      </div>
+    </div>
+    <div class="box">
+      <img class="map" src="{{ url_for('static', filename='map.png') }}">
+      <h1>
+        29 June 2019, Trondheim, Norway <br>
+        <span class="zh">二零一九年 六月 二十九日 於 挪威 特隆赫姆</span>
+      </h1>
+      <img class="wharves" src="{{ url_for('static', filename='wharves.jpg') }}">
+    </div>
+    <div class="contents">
+      <p>
+        <img class="sunset" src="{{ url_for('static', filename='sunset.png') }}"> <br>
+        29-June-2019 is a Saturday <br>
+        <span class="zh">二零一九年六月二十九日是周六</span> <br>
+        One week after the summer solstice <br>
+        <span class="zh">夏至後大約一周</span> <br>
+        Sunrise at 3:08, Sunset at 23:34 <br>
+        <span class="zh">日出：凌晨三點，日落：晚上十一點半</span> <br>
+        Daylight about 21 hours <br>
+        <span class="zh">日照約二十一小時</span> <br>
+        Temperature 11 °C - 17 °C <br>
+        <span class="zh">氣溫大約十一至十七攝氏度</span>
+      </p>
+
+      <p>
+        <img style="width: 7vw; margin-right: -7vw; float: left; position: relative; top: -1.2vw;"
+             src="{{ url_for('static', filename='lianlogo.png') }}">
+        <span style="font-weight: bold;">
+          Ceremony and party &middot; Seremoni og fest &middot; <span class="zh">典禮和派對</span>
+        </span> <br>
+        <span style="font-weight: bold;">Lian Restaurant:</span>
+        Lianvegen 36, 7024 Trondheim, Norway
+        <img style="width: 7vw; margin-left: -7vw; float: right; position: relative; top: -8vw;"
+             src="{{ url_for('static', filename='dragonflies.png') }}">
+      </p>
+    </div>
+    <div class="contents images">
+      <p>
+        <img src="{{ url_for('static', filename='lian1.jpg') }}">
+        <img src="{{ url_for('static', filename='lian2.jpg') }}">
+        <img src="{{ url_for('static', filename='lian3.jpg') }}">
+      </p>
+      <p>
+        We chose this beatiful location because it is so close to nature, surrounded by a forest on
+        a green slope, and facing a calm lake. If the weather is nice, you may bring your swimsuit.
+      </p>
+      <p class="zh">
+        我們選擇在這個美麗的地方舉行婚禮，因為它毗鄰大自然，綠蔭環繞，傍水依山。如果天氣好的話，你們可以帶上泳衣。
+      </p>
+      <p>
+        Vi valgte Lian på grunn av dets nærhet til naturen, midt i skogen på toppen av en grønn
+        bakke, med en stille innsjø i nærheten. Hvis været er bra kan du ta med badedrakt.
+      </p>
+    </div>
+  </body>
+</html>

@@ -70,7 +70,7 @@
         the entire Master's program. During this time they tried every board game ever created. When
         Jørgen married in 2011, Eivind was the best man, and now the roles are reversed.
       </div>
-      <div style="float: left; width: 50%; padding-left: 1vw;">
+      <div style="float: left; width: 50%; padding-left: 3vw;">
         Jørgen<span class="zh">是艾文在挪威特隆赫姆大學碩士期間的同學兼好友。在此期間，他們幾乎玩
         遍了所有的桌遊。</span>Eivind<span class="zh">是</span>Jørgen<span class="zh">在
         </span>2011<span class="zh">年結婚時的伴郎，如今他們的角色正好互換了。</span> <br> <br>
@@ -80,7 +80,7 @@
         seg i 2011, var Eivind hans forlover, og nå er det motsatt.
       </div>
     </div>
-    <dir class="midbox cols right">
+    <div class="midbox cols right" style="padding-bottom: 3vw;">
       <h4>The maid of honor &middot; <span class="zh">伴娘</span> &middot; Forlover</h4>
       <div style="float: right; width: 45%;">
         <img src="{{ url_for('static', filename='ny.jpg') }}" />
@@ -89,7 +89,7 @@
         time to indulge themselves, they love to explore good foods and drinks, and discover
         exciting life moments.
       </div>
-      <div style="float: right; width: 50%; padding-right: 1vw;">
+      <div style="float: right; width: 50%; padding-right: 3vw;">
         <span class="zh">娜是一位傾心探索嘗試、對生活滿懷熱情的調香師。娜和坤在學校結識後不久，就成
         了一起把酒言歡、逛街串巷的朋友。她倆總是利用閒暇時間去品嚐美食佳餚，一起發掘生活中有趣的細節。
         </span> <br> <br>
@@ -98,6 +98,6 @@
         møttes på skolen, ble de mat- og shoppingkamerater. Når de har tid til å slå seg løs elsker
         de å utforske gode matvarer og drikker, og å oppdage spennende livsmomenter.
       </div>
-    </dir>
+    </div>
   </body>
 </html>

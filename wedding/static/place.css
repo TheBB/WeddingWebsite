@@ -1,5 +1,5 @@
 html {
-    background-image: url(/static/about-bg.jpg);
+    background-image: url(/static/place-bg.jpg);
     color: #374b85;
 }
 
@@ -19,34 +19,57 @@ html {
     margin: auto;
     margin-top: 5vw;
     width: 60vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+}
+
+.contents .sunset {
+    width: 10vw;
+    margin: -2vw;
 }
 
 .contents > p {
     padding-top: 1vw;
 }
 
-.carps {
-    background-image: url(/static/carp.png);
-    background-size: 20vw;
-    background-repeat: no-repeat;
-    background-position: center;
+.images {
+    margin-top: -0vw;
 }
 
-.midbox {
+.images p {
+    padding: 0;
+}
+
+.images img {
+    width: 29%;
+    border-style: solid;
+    border-width: 0.3vw;
+    padding: 0.1vw;
+}
+
+.box {
+    width: 70%;
     margin: auto;
-    width: 60vw;
-    font-size: 1.2vw;
-    margin-top: 3vw;
+    margin-bottom: -2vw;
 }
 
-.midbox > table {
-    width: 100%;
-    margin: auto;
-    height: 20vw;
+.box .map {
+    width: 18vw;
+    float: left;
 }
 
-.midbox td {
-    width: 50%;
+.box .wharves {
+    width: 40vw;
+    margin-left: 5vw;
+    border-style: solid;
+    border-width: 0.3vw;
+    padding: 0.1vw;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 1.7vw;
 }
 
 .cols:after {
@@ -85,11 +108,6 @@ html {
 .right {
     text-align: right;
     vertical-align: bottom;
-}
-
-.contents {
-    font-size: 1.7vw;
-    margin-top: 0vw;
 }
 
 .footer {
