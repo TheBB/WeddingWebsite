@@ -11,6 +11,9 @@ def index():
 def place():
     return render_template('place.djhtml')
 
+def schedule():
+    return render_template('schedule.djhtml')
+
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
@@ -30,5 +33,6 @@ def create_app(test_config=None):
     app.route('/')(index)
     app.route('/about')(about)
     app.route('/place')(place)
+    app.route('/schedule')(schedule)
 
     return app

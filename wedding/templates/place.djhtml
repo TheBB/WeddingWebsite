@@ -42,7 +42,7 @@
         <img style="width: 7vw; margin-right: -7vw; float: left; position: relative; top: -1.2vw;"
              src="{{ url_for('static', filename='lianlogo.png') }}">
         <span style="font-weight: bold;">
-          Ceremony and party &middot; Seremoni og fest &middot; <span class="zh">典禮和派對</span>
+          Ceremony and party &middot; <span class="zh">典禮和派對</span> &middot; Seremoni og fest
         </span> <br>
         <span style="font-weight: bold;">Lian Restaurant:</span>
         Lianvegen 36, 7024 Trondheim, Norway

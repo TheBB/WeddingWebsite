@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='schedule.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">Schedule &middot; Program<br><span class="zh">日程安排</span></a>
+      </div>
+    </div>
+    <div class="contents">
+      <p>
+        Details are subject to change <br>
+        <span class="zh">具體安排屆時可能略有調整</span> <br>
+        Detaljer er ikke spikret
+      </p>
+      <img style="height: 10vw; margin-bottom: 2vw;" src="{{ url_for('static', filename='thingy.png') }}">
+      <table class="schedule">
+        <tbody>
+          <tr>
+            <th colspan="2">Kun &amp; Eivind</th>
+          </tr>
+          <tr>
+            <td>10:00 &ndash; 12:00</td>
+            <td>
+              Wedding photos (private) <br>
+              <span class="zh"> 婚紗攝影（私人）</span>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">Guests &middot; <span class="zh">賓客</span> &middot; Gjester</th>
+          </tr>
+          <tr>
+            <td>10:00 &ndash; 12:00</td>
+            <td>
+              Sverresborg folkemusem (optional) <br>
+              <span class="zh">遊覽民俗博物館（自選）</span>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">Everyone &middot; <span class="zh">所有人</span> &middot; Alle</th>
+          </tr>
+          <tr>
+            <td>13:00 &ndash; 14:00</td>
+            <td>Ceremony &middot; <span class="zh">典禮</span> &middot; Seremoni</td>
+          </tr>
+          <tr>
+            <td>14:00 &ndash; 15:00</td>
+            <td>Photo with the new couple &middot; <span class="zh">合影</span> &middot; Bilde med brudeparet</td>
+          </tr>
+          <tr>
+            <td>15:00 &ndash; 17:00</td>
+            <td>Games and fun &middot; <span class="zh">遊樂</span> &middot; Spill og moro</td>
+          </tr>
+          <tr>
+            <td>17:00 &ndash; 19:00</td>
+            <td>Free time and drinks &middot; <span class="zh">自由安排</span> &middot; Fritid og drikke</td>
+          </tr>
+          <tr>
+            <td>19:00 &ndash; 22:00</td>
+            <td>Dinner &middot; <span class="zh">晚宴</span> &middot; Middag</td>
+          </tr>
+          <tr>
+            <td>22:00 &ndash; 00:00</td>
+            <td>Party and dance &middot <span class="zh">派對</span> &middot; Fest og dans</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

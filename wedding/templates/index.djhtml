@@ -32,9 +32,9 @@
           <td class="no"><a href="/place">Tid og sted</a></td>
         </tr>
         <tr>
-          <td class="en">Schedule</td>
-          <td class="zh">日程安排</td>
-          <td class="no">Program</td>
+          <td class="en"><a href="/schedule">Schedule</a></td>
+          <td class="zh"><a href="/schedule">日程安排</a></td>
+          <td class="no"><a href="/schedule">Program</a></td>
         </tr>
         <tr>
           <td class="en">Information</td>

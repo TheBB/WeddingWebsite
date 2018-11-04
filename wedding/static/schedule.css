@@ -1,0 +1,50 @@
+html {
+    background-image: url(/static/schedule-bg.jpg);
+    color: #374b85;
+}
+
+.topbox {
+    width: 70%;
+    margin: 17% auto 0vw; auto;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+}
+
+.contents > p {
+    padding-top: 1vw;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5vw;
+}
+
+.schedule td {
+    vertical-align: top;
+}
+
+.schedule th {
+    padding: 1.2vw;
+}
+
+.schedule td:nth-child(1) {
+    width: 20%;
+}
+
+.schedule td:nth-child(2) {
+    text-align: left;
+}
