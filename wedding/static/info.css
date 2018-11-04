@@ -1,0 +1,108 @@
+html {
+    background-image: url(/static/info-bg.jpg);
+    color: #4b4c44;
+}
+
+.topbox {
+    width: 70%;
+    margin: 12% auto 0vw; auto;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+}
+
+.contents > p {
+    padding-top: 1vw;
+}
+
+.contact {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.contact tr td:nth-child(1) {
+    text-align: right;
+    padding-right: 2vw;
+}
+
+.contact tr td:nth-child(2) {
+    text-align: left;
+}
+
+.contact tr td:nth-child(3) {
+    text-align: left;
+}
+
+.info {
+    width: 100%;
+    margin: auto;
+    margin-top: 2vw;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+    margin-bottom: 8vw;
+}
+
+.info td {
+    width: 50%;
+    vertical-align: top;
+}
+
+.info td:nth-child(1) {
+    padding-right: 1vw;
+}
+
+.info th {
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+tr.mid td {
+    text-align: center;
+    padding-top: 2vw;
+}
+
+tr.mid img {
+    height: 8vw;
+}
+
+tr.centered :nth-child(1) {
+    text-align: right;
+    padding-right: 2vw;
+}
+
+tr.centered :nth-child(2) {
+    text-align: left;
+}
+
+tr.images td {
+    padding: 1vw;
+    padding-left: 0;
+}
+
+tr.images td:nth-child(1) {
+    text-align: right;
+    padding-right: 2vw;
+}
+
+tr.images td:nth-child(2) {
+    text-align: left;
+}
+
+tr.images img {
+    height: 10vw;
+}

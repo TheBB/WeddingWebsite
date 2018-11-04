@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='info.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">Information &middot; Informasjon<br><span class="zh">旅宿信息</span></a>
+      </div>
+    </div>
+    <div class="contents">
+      <p>
+        For questions or help, please contact us <br>
+        <span class="zh">若有任何疑問或需要幫助，請聯繫我們</span>
+      </p>
+      <table class="contact">
+        <tbody>
+          <tr>
+            <td>Kun</td>
+            <td>(+31) 681408836</td>
+            <td>kun.liu.contact (at) gmail.com</td>
+          </tr>
+          <tr>
+            <td>Eivind</td>
+            <td>(+47) 41449889</td>
+            <td>evfonn (at) gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="contents" style="width: 70vw;">
+      <table class="info">
+        <tbody>
+          <tr>
+            <th>Coming to Trondheim</th>
+            <th class="zh">如何到達特隆赫姆</th>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-weight: bold;">By flight:</span> You can take a flight to
+              Trondheim Værnes from Amsterdam, Oslo, Copenhagen, Stockholm or London. The airport
+              is serviced by
+              <a href="https://avinor.no/en/airport/trondheim-airport/to-and-from-the-airport/bus-train-and-taxi/train">
+                trains, buses and taxi</a>, which takes about 35 minutes. The bus runs every 10
+                minutes from 7:00 to 23:00.
+              <br>
+              <span style="font-weight: bold;">By car:</span> Driving from the Netherlands will take
+              about 20 hours. We suggest you stay over one night in Sweden.
+            </td>
+            <td>
+              <span class="zh"><span style="font-weight: bold;">飛機：</span>去特隆赫姆大部分的航班都需要在阿姆斯特丹，奧斯陸，哥本哈根，斯特哥爾摩或倫敦轉機。到達特隆赫姆</span>Værnes<span class="zh">機場後可以乘坐機場巴士，火車或者出租車到達市中心，大約半個小時車程。機場巴士每十分鐘有一班，運行時間是從早上七點到晚上十一點。 <br>
+                <span style="font-weight: bold;">自駕：</span>若您從荷蘭出發，自駕大約需要二十小時。建議您中途在瑞典留宿一夜。</span>
+            </td>
+          </tr>
+          <tr class="mid">
+            <td colspan="2">
+              <img src="{{ url_for('static', filename='reindeer.png') }}">
+            </td>
+          </tr>
+          <tr>
+            <th>Coming to Lian restaurant</th>
+            <th class="zh">如何到達婚禮地點</th>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-weight: bold;">By public transit:</span> Take the tram from the city centre to its final stop. <br>
+              <span style="font-weight: bold;">By car:</span> Follow your GPS system to <em>Lianvegen 36, 7024 Trondheim</em>.
+            </td>
+            <td>
+              <span class="zh"><span style="font-weight: bold;">公共交通：</span> <br>
+                <span style="font-weight: bold;">自駕：</span>請根據導航到以下地點：</span>Lianvegen 36, 7024 Trondheim
+            </td>
+          </tr>
+          <tr class="mid">
+            <td colspan="2">
+              <img src="{{ url_for('static', filename='flowers.png') }}">
+            </td>
+          </tr>
+          <tr class="centered">
+            <th>What to do in Trondheim?</th>
+            <th class="zh">特隆赫姆 景點推薦</th>
+          </tr>
+          <tr class="centered">
+            <td>The old town, its bridge and the wharves</td>
+            <td class="zh">老城 &ndash; 橋 &ndash; 碼頭</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='wharves2.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='bridge.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td>Trøndelag folk museum</td>
+            <td class="zh">露天民俗博物館</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='sverresborg1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='sverresborg2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td>Nidaros cathedral</td>
+            <td class="zh">尼達洛斯主教座堂</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='domen1.png') }}"></td>
+            <td><img src="{{ url_for('static', filename='domen2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td>Rockheim national museum for popular music</td>
+            <td class="zh">挪威國立流行搖滾音樂博物館</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='rockheim1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='rockheim2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td>Kristiansten Fortress</td>
+            <td class="zh">克里斯蒂安堡壘</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='fortress1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='fortress2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td>Munkholmen</td>
+            <td class="zh">僧侶島</td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='munk1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='munk2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <th>What to do in Norway?</th>
+            <th class="zh"></th>
+          </tr>
+          <tr class="centered">
+            <td><span style="font-weight: bold;">North:</span> The Lofoten islands</td>
+            <td class="zh"><span style="font-weight: bold;">北部：</span></td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='lofoten1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='lofoten2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td><span style="font-weight: bold;">West:</span> Geiranger fjord</td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='geiranger1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='geiranger2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td> <span style="font-weight: bold;">West:</span> The Atlantic road</td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='atlantic1.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='atlantic2.jpg') }}"></td>
+          </tr>
+          <tr class="centered">
+            <td> <span style="font-weight: bold;">West:</span> The Troll wall and the Troll path</td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+          </tr>
+          <tr class="images">
+            <td><img src="{{ url_for('static', filename='trollveggen.jpg') }}"></td>
+            <td><img src="{{ url_for('static', filename='trollstigen.jpg') }}"></td>
+          </tr>
+          <tr class="mid">
+            <td colspan="2">
+              <img src="{{ url_for('static', filename='baijiu.png') }}">
+            </td>
+          </tr>
+          <tr>
+            <th>Typical Norwegian foods and drinks</th>
+            <th class="zh">挪威的特色美食</th>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-weight: bold;">Seafood:</span> Salmon, king crab, cod (e.g. stockfish, lutefisk), whale, mussels <br>
+              <span style="font-weight: bold;">Meat:</span> Lamb <br>
+              <span style="font-weight: bold;">Game:</span> Deer, reindeer, moose <br>
+              <span style="font-weight: bold;">Dairy:</span> Brown cheese <br>
+              <span style="font-weight: bold;">Alcohol:</span> Aquavit <br>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr class="mid">
+            <td colspan="2">
+              <img src="{{ url_for('static', filename='meihua.png') }}">
+            </td>
+          </tr>
+          <tr>
+            <th>Recommended hotels</th>
+            <th class="zh">婚禮附近的旅館</th>
+          </tr>
+          <tr>
+            <td>To be added</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
