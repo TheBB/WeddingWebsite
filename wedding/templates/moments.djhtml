@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='moments.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">Moments &middot; Øyeblikk<br><span class="zh">生活點滴</span></a>
+      </div>
+    </div>
+    <div class="contents">
+      <table class="images">
+        <tbody>
+          <tr>
+            <td>
+              <img class="z" src="{{ url_for('static', filename='img1.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img2.jpg') }}">
+              <img class="y" src="{{ url_for('static', filename='object.png') }}">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="z" src="{{ url_for('static', filename='img3.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img4.jpg') }}">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="z" src="{{ url_for('static', filename='img5.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img6.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img7.jpg') }}">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="z" src="{{ url_for('static', filename='img8.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img9.jpg') }}">
+              <img class="z" src="{{ url_for('static', filename='img10.jpg') }}">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

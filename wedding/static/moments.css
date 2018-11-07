@@ -1,0 +1,52 @@
+html {
+    background-image: url(/static/moments-bg.jpg);
+    color: #990523;
+}
+
+.topbox {
+    width: 70%;
+    margin: 17% auto 0vw; auto;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+    margin-top: 10vw;
+}
+
+.contents > p {
+    padding-top: 1vw;
+}
+
+.images {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.images img.z {
+    height: 13vw;
+    margin: 1vw;
+    box-shadow: 0vw 0vw 0.6vw black;
+    border-style: solid;
+    border-width: 0.4vw;
+    border-color: white;
+}
+
+.images img.y {
+    width: 25vw;
+    position: absolute;
+    left: 75vw;
+    top: 40vw;
+}

@@ -51,6 +51,11 @@
           <td class="zh"><a href="/news">最新消息</a></td>
           <td class="no"><a href="/news">Oppdateringer</a></td>
         </tr>
+        <tr>
+          <td class="en"><a href="/moments">Moments</a></td>
+          <td class="zh"><a href="/moments">生活點滴</a></td>
+          <td class="zh"><a href="/moments">Øyeblikk</a></td>
+        </tr>
       </tbody>
     </table>
     <div class="footer">
