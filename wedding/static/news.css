@@ -1,0 +1,55 @@
+html {
+    background-image: url(/static/news-bg.jpg);
+    color: #4b4c44;
+}
+
+.topbox {
+    width: 70%;
+    margin: 17% auto 0vw; auto;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+    margin-top: 10vw;
+}
+
+.contents > p {
+    padding-top: 1vw;
+}
+
+.news {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.news td:nth-child(1) {
+    width: 25%;
+    text-align: left;
+}
+
+.news td:nth-child(2) {
+    width: 75%;
+    text-align: left;
+}
+
+.news td.img {
+    text-align: center;
+    padding: 2vw;
+}
+
+.news td.img img {
+    height: 9vw;
+}

@@ -47,9 +47,9 @@
           <td class="no">Svar utbes</td>
         </tr>
         <tr>
-          <td class="en">Updates</td>
-          <td class="zh">最新消息</td>
-          <td class="no">Oppdateringer</td>
+          <td class="en"><a href="/news">Updates</a></td>
+          <td class="zh"><a href="/news">最新消息</a></td>
+          <td class="no"><a href="/news">Oppdateringer</a></td>
         </tr>
       </tbody>
     </table>

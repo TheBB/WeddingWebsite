@@ -17,6 +17,9 @@ def schedule():
 def info():
     return render_template('info.djhtml')
 
+def news():
+    return render_template('news.djhtml')
+
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
@@ -38,5 +41,6 @@ def create_app(test_config=None):
     app.route('/place')(place)
     app.route('/schedule')(schedule)
     app.route('/info')(info)
+    app.route('/news')(news)
 
     return app

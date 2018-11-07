@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='news.css') }}">
+    <title>Kun &#x2665; Eivind</title>
+  </head>
+  <body>
+    <div class="topbox">
+      <div class="title">
+        <a href="/">Updates &middot; Oppdateringer<br><span class="zh">最新消息</span></a>
+      </div>
+    </div>
+    <div class="contents">
+      <table class="news">
+        <tbody>
+          <tr>
+            <td>March 2, 2018</td>
+            <td>Eivind proposed and Kun said yes</td>
+          </tr>
+          <tr>
+            <td>April 15, 2018</td>
+            <td>We decided to hold our wedding at Lian in Trondheim</td>
+          </tr>
+          <tr>
+            <td>August 10, 2018</td>
+            <td>Kun found her wedding dress</td>
+          </tr>
+          <tr>
+            <td>September 16, 2018</td>
+            <td>Kun found her Chinese wedding dress</td>
+          </tr>
+          <tr>
+            <td>September 29, 2018</td>
+            <td>Eivind found his wedding suit</td>
+          </tr>
+          <tr>
+            <td>October 13, 2018</td>
+            <td>Kun found her wedding shoes</td>
+          </tr>
+          <tr>
+            <td>November 11, 2018</td>
+            <td>We shoot our pre-wedding photos (Chinese tradition)</td>
+          </tr>
+          <tr>
+            <td class="img" colspan="2">
+              <img src="{{ url_for('static', filename='birds.png') }}">
+            </td>
+          </tr>
+          <tr>
+            <td>January 30, 2019</td>
+            <td>We have our Chinese wedding ceremony in Lvliang, China</td>
+          </tr>
+          <tr>
+            <td>June 29, 2019</td>
+            <td>We have our Norwegian wedding ceremony in Trondheim, Norway</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
