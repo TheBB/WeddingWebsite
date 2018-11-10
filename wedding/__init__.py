@@ -23,6 +23,9 @@ def news():
 def moments():
     return render_template('moments.djhtml')
 
+def rsvp():
+    return render_template('rsvp.djhtml')
+
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
@@ -46,5 +49,6 @@ def create_app(test_config=None):
     app.route('/info')(info)
     app.route('/news')(news)
     app.route('/moments')(moments)
+    app.route('/rsvp')(rsvp)
 
     return app

@@ -1,0 +1,122 @@
+html {
+    background-image: url(/static/rsvp-bg.jpg);
+    color: #2b2c48;
+}
+
+.topbox {
+    width: 70%;
+    margin: 7% auto 0vw; auto;
+}
+
+.topbox > .title {
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 1.0em;
+    text-align: center;
+}
+
+.contents {
+    margin: auto;
+    width: 55vw;
+    text-align: center;
+    font-size: 1.4vw;
+    line-height: 1.4em;
+    margin-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.contents > p {
+    padding-top: 1vw;
+}
+
+.label {
+    text-align: left;
+    padding-top: 1.5vw;
+}
+
+.label label {
+    font-weight: bold;
+}
+
+.info {
+    font-size: 0.8vw;
+    position: relative;
+    top: -0.5vw;
+}
+
+.label table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.left {
+    padding-top: 0.1vw;
+    width: 2vw;
+}
+
+.indent {
+    padding-left: 2vw;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+textarea {
+    font-family: sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    width: 102%;
+    box-shadow: 0em 0em 0.2vw black;
+    padding: 0.5vw;
+}
+
+.label td {
+    vertical-align: top;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.5vw;
+    font-weight: bold;
+    font-size: 1vw;
+    box-shadow: 0em 0em 0.2vw black;
+    font-family: sans-serif;
+}
+
+.submit {
+    text-align: right;
+}
+
+.submit input {
+    padding: 0.5vw;
+    margin: 1vw;
+    margin-right: 0;
+    font-size: 1vw;
+    font-weight: bold;
+    box-shadow: 0em 0em 0.2vw black;
+}
+
+.news {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.news td:nth-child(1) {
+    width: 25%;
+    text-align: left;
+}
+
+.news td:nth-child(2) {
+    width: 75%;
+    text-align: left;
+}
+
+.news td.img {
+    text-align: center;
+    padding: 2vw;
+}
+
+.news td.img img {
+    height: 9vw;
+}

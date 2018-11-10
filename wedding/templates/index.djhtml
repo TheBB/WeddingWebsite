@@ -42,9 +42,9 @@
           <td class="no"><a href="/info">Informasjon</a></td>
         </tr>
         <tr>
-          <td class="en">RSVP</td>
-          <td class="zh">敬請回覆</td>
-          <td class="no">Svar utbes</td>
+          <td class="en"><a href="/rsvp">RSVP</a></td>
+          <td class="zh"><a href="/rsvp">敬請回覆</a></td>
+          <td class="no"><a href="/rsvp">Svar utbes</a></td>
         </tr>
         <tr>
           <td class="en"><a href="/news">Updates</a></td>
