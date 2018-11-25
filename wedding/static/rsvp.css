@@ -120,3 +120,7 @@ textarea {
 .news td.img img {
     height: 9vw;
 }
+
+.empty {
+    height: 40vw;
+}

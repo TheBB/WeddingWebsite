@@ -23,13 +23,14 @@ html {
 
 .contents > p {
     padding-top: 1vw;
+    font-size: 1.2vw;
 }
 
 .carps {
     background-image: url(/static/carp.png);
     background-size: 20vw;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 200%;
 }
 
 .midbox {

@@ -106,3 +106,7 @@ tr.images td:nth-child(2) {
 tr.images img {
     height: 10vw;
 }
+
+.empty {
+    height: 30vw;
+}

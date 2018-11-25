@@ -45,7 +45,7 @@
           <tr>
             <td>
               <span style="font-weight: bold;">By flight:</span> You can take a flight to
-              Trondheim Værnes from Amsterdam, Oslo, Copenhagen, Stockholm or London. The airport
+              Trondheim Værnes via Amsterdam, Oslo, Copenhagen, Stockholm or London. The airport
               is serviced by
               <a href="https://avinor.no/en/airport/trondheim-airport/to-and-from-the-airport/bus-train-and-taxi/train">
                 trains, buses and taxi</a>, which takes about 35 minutes. The bus runs every 10
@@ -141,7 +141,7 @@
           </tr>
           <tr class="centered">
             <td><span style="font-weight: bold;">North:</span> The Lofoten islands</td>
-            <td class="zh"><span style="font-weight: bold;">北部：</span></td>
+            <td class="zh"><span style="font-weight: bold;">北部：</span>羅弗敦群島</td>
           </tr>
           <tr class="images">
             <td><img src="{{ url_for('static', filename='lofoten1.jpg') }}"></td>
@@ -149,7 +149,7 @@
           </tr>
           <tr class="centered">
             <td><span style="font-weight: bold;">West:</span> Geiranger fjord</td>
-            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span>蓋朗厄爾峽灣</td>
           </tr>
           <tr class="images">
             <td><img src="{{ url_for('static', filename='geiranger1.jpg') }}"></td>
@@ -157,7 +157,7 @@
           </tr>
           <tr class="centered">
             <td> <span style="font-weight: bold;">West:</span> The Atlantic road</td>
-            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span>大西洋海濱公路</td>
           </tr>
           <tr class="images">
             <td><img src="{{ url_for('static', filename='atlantic1.jpg') }}"></td>
@@ -165,7 +165,7 @@
           </tr>
           <tr class="centered">
             <td> <span style="font-weight: bold;">West:</span> The Troll wall and the Troll path</td>
-            <td class="zh"><span style="font-weight: bold;">西部：</span></td>
+            <td class="zh"><span style="font-weight: bold;">西部：</span>精靈之路</td>
           </tr>
           <tr class="images">
             <td><img src="{{ url_for('static', filename='trollveggen.jpg') }}"></td>
@@ -188,7 +188,12 @@
               <span style="font-weight: bold;">Dairy:</span> Brown cheese <br>
               <span style="font-weight: bold;">Alcohol:</span> Aquavit <br>
             </td>
-            <td>
+            <td class="zh">
+              <span style="font-weight: bold;">海鮮：</span>三文鱼，帝王蟹，鱈鱼（如风干鳕鱼，碱渍鳕鱼），鲸鱼，貽貝<br>
+              <span style="font-weight: bold;">肉：</span>羊肉<br>
+              <span style="font-weight: bold;">野味：</span>鹿，驯鹿，驼鹿<br>
+              <span style="font-weight: bold;">乳制品：</span>棕色奶酪<br>
+              <span style="font-weight: bold;">酒：</span>阿夸维特（蒸馏酒）<br>
             </td>
           </tr>
           <tr class="mid">
@@ -207,5 +212,6 @@
         </tbody>
       </table>
     </div>
+    <div class="empty"/>
   </body>
 </html>

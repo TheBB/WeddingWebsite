@@ -17,7 +17,7 @@
     </div>
     <div class="contents">
       <p>
-        It would be great if you can make your decision soon, so that we can organise the
+        It would be great if you can make your decision soon, so that we can organize the
         wedding and program with some flexibility. Please confirm your attendance <em>no later</em>
         than February 14, 2019. Please let us know if you have questions.
       </p>
@@ -114,5 +114,6 @@
         <input type="submit" value="»">
       </div>
     </div>
+    <div class="empty"/>
   </body>
 </html>

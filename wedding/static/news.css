@@ -35,6 +35,10 @@ html {
     font-weight: bold;
 }
 
+.news td {
+    padding-top: 1vw;
+}
+
 .news td:nth-child(1) {
     width: 25%;
     text-align: left;
@@ -52,4 +56,8 @@ html {
 
 .news td.img img {
     height: 9vw;
+}
+
+.empty {
+    height: 72vw;
 }

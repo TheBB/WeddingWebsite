@@ -48,3 +48,7 @@ html {
 .schedule td:nth-child(2) {
     text-align: left;
 }
+
+.empty {
+    height: 60vw;
+}
