@@ -66,7 +66,7 @@
         <table>
           <tbody>
             <tr>
-              <td rowspan="3" class="left">
+              <td class="left">
                 <input type="checkbox" id="yes" name="choice" value="yes">
               </td>
               <td>
@@ -78,17 +78,6 @@
               </td>
             </tr>
             <tr>
-              <td class="indent">
-                Please let us know if you intend to bring additional guests, and their names. <br>
-                Vennligst la oss vite om du vil ta med ytterligere gjester, og hva de heter. <br>
-                <span class="zh">請確認是否攜帶您的伴侶或/和子女</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="indent">
-                <textarea name="plusone" rows="3"></textarea>
-              </td>
-            </tr>
               <td class="left" style="padding-top: 0.5vw;">
                 <input type="checkbox" id="no" name="choice" value="no">
               </td>
