@@ -16,6 +16,7 @@
       </div>
     </div>
     <div class="contents">
+      <form action="" method="post" novalidate>
       <p>
         It would be great if you can make your decision soon, so that we can organize the
         wedding and program with some flexibility. Please confirm your attendance <em>no later</em>
@@ -29,23 +30,26 @@
         planleggingen. Vær så vennlig å bekreft <em>ikke senere</em> enn 14. februar 2019.
         Ved spørsmål, ta gjerne kontakt.
       </p>
+      {% if msg %}
+        <p class="msg">Thank you! &middot; <span class="zh">謝謝</span> &middot; Takk skal du ha!</p>
+      {% endif %}
       <div class="label">
         <label for="name">Your name &middot; <span class="zh">您的姓名</span> &middot; Ditt navn</label>
       </div>
       <div class="input">
-        <input id="name">
+        <input id="name" name="name">
       </div>
       <div class="label">
         <label for="email">Your e-mail &middot; <span class="zh">您的郵箱</span> &middot; Din e-post adresse</label>
       </div>
       <div class="input">
-        <input id="email">
+        <input id="email" name="email">
       </div>
       <div class="label">
         <label for="phone">Your phone number &middot; <span class="zh">您的電話/手機</span> &middot; Ditt telefonnummer</label>
       </div>
       <div class="input">
-        <input id="phone">
+        <input id="phone" name="phone">
       </div>
       <div class="label">
         <label for="address">Your address &middot; <span class="zh">您的地址</span> &middot; Din adresse</label> <br>
@@ -56,14 +60,14 @@
         </span>
       </div>
       <div class="input">
-        <input id="address">
+        <input id="address" name="address">
       </div>
       <div class="label">
         <table>
           <tbody>
             <tr>
               <td rowspan="3" class="left">
-                <input type="checkbox" id="yes" name="choice" value="1">
+                <input type="checkbox" id="yes" name="choice" value="yes">
               </td>
               <td>
                 <label for="yes">
@@ -86,7 +90,7 @@
               </td>
             </tr>
               <td class="left" style="padding-top: 0.5vw;">
-                <input type="checkbox" id="no" name="choice" value="1">
+                <input type="checkbox" id="no" name="choice" value="no">
               </td>
               <td style="padding-top: 0.5vw;">
                 <label for="no">
@@ -111,8 +115,9 @@
         <textarea name="info" rows="3"></textarea>
       </div>
       <div class="submit">
-        <input type="submit" value="»">
+        <input type="submit" name="submit" value="»">
       </div>
+      </form>
     </div>
     <div class="empty"/>
   </body>

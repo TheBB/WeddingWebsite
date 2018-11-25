@@ -124,3 +124,9 @@ textarea {
 .empty {
     height: 40vw;
 }
+
+.msg {
+    font-weight: bold;
+    font-size: 2vw;
+    color: #b90042;
+}
