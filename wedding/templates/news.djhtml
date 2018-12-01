@@ -19,32 +19,60 @@
       <table class="news">
         <tbody>
           <tr>
-            <td>March 2, 2018</td>
-            <td>Eivind proposed and Kun said yes</td>
+            <td>2018-03-02</td>
+            <td>
+              Eivind proposed and Kun said yes <br>
+              Eivind fridde og Kun sa ja <br>
+              <span class="zh">坤答應了艾文的求婚</span>
+            </td>
           </tr>
           <tr>
-            <td>April 15, 2018</td>
-            <td>Wedding venue was arranged</td>
+            <td>2018-04-15</td>
+            <td>
+              Wedding venue was arranged <br>
+              Bryllupsplassen ble bestemt <br>
+              <span class="zh">我們安排好了婚禮地點</span>
+            </td>
           </tr>
           <tr>
-            <td>August 10, 2018</td>
-            <td>Kun found her bridal dress</td>
+            <td>2018-08-10</td>
+            <td>
+              Kun found her bridal dress <br>
+              Kun fant bryllupskjolen <br>
+              <span class="zh">坤訂做了她的婚紗</span>
+            </td>
           </tr>
           <tr>
-            <td>September 16, 2018</td>
-            <td>Kun got her Chinese wedding dress</td>
+            <td>2018-09-16</td>
+            <td>
+              Kun got her Chinese wedding dress <br>
+              Kun fant sin kinesiske bryllupskjole <br>
+              <span class="zh">坤選好了她的中式婚禮上要穿的旗袍</span>
+            </td>
           </tr>
           <tr>
-            <td>September 29, 2018</td>
-            <td>Eivind got his suit</td>
+            <td>2018-09-29</td>
+            <td>
+              Eivind got his suit <br>
+              Eivind fant dressen sin <br>
+              <span class="zh">艾文選好了他的新郎服</span>
+            </td>
           </tr>
           <tr>
-            <td>October 13, 2018</td>
-            <td>Kun got her wedding shoes</td>
+            <td>2018-10-13</td>
+            <td>
+              Kun got her wedding shoes <br>
+              Kun fant bryllupsskoene <br>
+              <span class="zh">坤選好了婚鞋</span>
+            </td>
           </tr>
           <tr>
-            <td>November 18, 2018</td>
-            <td>We shot our pre-wedding photos (Chinese tradition)</td>
+            <td>2018-11-18</td>
+            <td>
+              We shot our pre-wedding photos (Chinese tradition) <br>
+              Vi tok førbryllupsbildene (kinesisk tradisjon) <br>
+              <span class="zh">我們在荷蘭拍了婚紗照（中國習俗是在婚前拍）</span>
+            </td>
           </tr>
           <tr>
             <td class="img" colspan="2">
@@ -52,12 +80,20 @@
             </td>
           </tr>
           <tr>
-            <td>January 30, 2019</td>
-            <td>We have our Chinese wedding ceremony in Lvliang, China</td>
+            <td>2019-01-30</td>
+            <td>
+              We have our Chinese wedding ceremony in Lvliang, China <br>
+              Vi har vår kinesiske seremoni i Lvliang, Kina <br>
+              <span class="zh">我們在坤的家鄉舉行中式婚禮</span>
+            </td>
           </tr>
           <tr>
-            <td>June 29, 2019</td>
-            <td>We have our Norwegian wedding ceremony in Trondheim, Norway</td>
+            <td>2019-06-29</td>
+            <td>
+              We have our Norwegian wedding ceremony in Trondheim, Norway <br>
+              Vi har vårt norske bryllup i Trondheim, Norge <br>
+              <span class="zh">我們在艾文的家鄉舉行西式婚禮</span>
+            </td>
           </tr>
         </tbody>
       </table>

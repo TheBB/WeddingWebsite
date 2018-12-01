@@ -40,12 +40,13 @@ html {
 }
 
 .news td:nth-child(1) {
-    width: 25%;
+    width: 18%;
     text-align: left;
+    vertical-align: top;
 }
 
 .news td:nth-child(2) {
-    width: 75%;
+    width: 82%;
     text-align: left;
 }
 
@@ -59,5 +60,5 @@ html {
 }
 
 .empty {
-    height: 72vw;
+    height: 35vw;
 }
