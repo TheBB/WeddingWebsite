@@ -19,8 +19,8 @@ html {
     margin: auto;
     width: 60vw;
     text-align: center;
-    font-size: 1.4vw;
-    line-height: 1.4em;
+    font-size: 1.6vw;
+    line-height: 2.0em;
 }
 
 .contents > p {
@@ -50,5 +50,5 @@ html {
 }
 
 .empty {
-    height: 60vw;
+    height: 38vw;
 }
