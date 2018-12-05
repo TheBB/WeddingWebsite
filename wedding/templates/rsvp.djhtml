@@ -93,10 +93,10 @@
         </table>
       </div>
       <div class="label">
-        <label for="phone">Other information &middot; <span class="zh">您的電話/手機</span> &middot; Annen informasjon</label> <br>
+        <label for="phone">Other information &middot; <span class="zh">備註</span> &middot; Annen informasjon</label> <br>
         <span class="info">
           E.g. food and allergies &middot;
-          <span class="zh">用於郵寄正式婚禮邀請函</span> &middot;
+          <span class="zh">例如飲食禁忌，等</span> &middot;
           F.eks. mat og allergier
         </span>
       </div>
