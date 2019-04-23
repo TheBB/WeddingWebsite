@@ -27,7 +27,7 @@
       </p>
       <p>
         Det hadde vært flott om du kan bestemme deg snart, slik at vi har litt fleksibilitet med
-        planleggingen. Vær så vennlig å bekreft <em>ikke senere</em> enn 14. februar 2019.
+        planleggingen. Vær så vennlig å bekreft <em>umiddelbart</em>.
         Ved spørsmål, ta gjerne kontakt.
       </p>
       {% if msg %}
